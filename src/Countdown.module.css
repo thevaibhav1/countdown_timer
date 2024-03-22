@@ -1,0 +1,60 @@
+/* Form Styling */
+.timerForm {
+  width: 100%;
+  max-width: 500px; /* Adjust this to control the form's maximum width */
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: auto; /* Center the form if it's smaller than the parent container */
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 16px;
+}
+
+.formGroup input {
+  width: calc(100% - 500px); /* Adjust width considering padding */
+  padding: 10px 20px;
+  min-width: 200px;
+  max-width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto; /* Center the input within the form */
+}
+
+.formButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: auto; /* Use auto or specify a width */
+  max-width: 200px; /* Maximum width of the button */
+  display: block;
+  margin: 20px auto 0; /* Center the button and add margin on top */
+}
+
+.formButton:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message Styling */
+.errorMessage {
+  color: #d32f2f;
+  text-align: center;
+  margin-top: 20px;
+}

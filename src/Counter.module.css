@@ -1,0 +1,46 @@
+.block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #282c34; /* Dark background for contrast */
+  padding: 20px;
+  border-radius: 25px;
+  width: 50%;
+  min-width: 320px;
+  margin: 20px auto;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  /* Ensures some space around the block and centers it horizontally */
+  max-width: 450px; /* Limiting container width to 100% of the screen width */
+  overflow-x: auto; /* Add horizontal scroll if content overflows */
+}
+
+.inner_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; /* Adds space inside each block */
+  background-color: #3b4049; /* Slightly lighter than the block background */
+  border-radius: 4px; /* Soft edges */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Inner shadow for depth */
+}
+
+.inner_block h5 {
+  color: #ffcc00; /* Bright color for headings */
+  margin: 0 0 5px 0; /* Adjust spacing below the heading */
+  font-family: "Arial", sans-serif; /* Make sure to use a web-safe font or import one */
+  letter-spacing: 1px; /* Space out letters slightly */
+}
+
+.inner_block span {
+  color: #ffffff; /* White color for contrast */
+  font-size: 24px; /* Larger font size for readability */
+  font-weight: bold; /* Bold for emphasis */
+  font-family: "Courier New", Courier, monospace; /* Monospace to keep numbers evenly spaced */
+}
+
+p {
+  color: #ff6347; /* Tomato color for the warning text */
+  text-align: center; /* Center-align the text */
+  font-size: 18px; /* Slightly larger font for visibility */
+  margin-top: 20px; /* Space it out from the blocks */
+}
